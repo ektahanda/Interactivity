@@ -1,0 +1,25 @@
+#click {
+  color: green;
+  border: 2px solid black;
+  padding: 10px;
+  width: 70px;
+  background: gray;
+  border-radius: 4px;
+  font-family: Helvetica;
+  cursor: pointer;
+}
+
+#click:hover{
+  background: white;
+}
+
+.ball{
+  background: blue;
+  height: 150px;
+  width: 300px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 150px;
+  color: white;
+  transition: background 1s;
+}
